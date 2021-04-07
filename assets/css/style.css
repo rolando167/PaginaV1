@@ -1,0 +1,24 @@
+:root{
+	--dark: #0a0a0a;
+	--dark-x: #111111;
+	--dark-xx: #222222;
+	--light: #ffffff;
+	--primary: #ff7069;
+	--primary-x: #fe3051;
+	--muted: #a1b0bf;
+}
+
+
+body{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1rem;
+	font-weight: 300;
+	color: var(--light);
+	background-color: var(--dark);
+}
+
+.bg-dark { background-color: var(--dark) !important;  }
+
+.navbar{
+	min-height: 5rem;
+}
