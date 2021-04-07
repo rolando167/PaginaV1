@@ -16,9 +16,19 @@ body{
 	color: var(--light);
 	background-color: var(--dark);
 }
+a{	color: var(--primary); }
+
+a:hover{ 
+	color: var(--primary);
+	text-decoration: none;
+}
+
 .text-muted{ color: var(--muted) !important; }
 
 .bg-dark { background-color: var(--dark) !important;  }
+.bg-dark-x { background-color: var(--dark-x) !important;  }
+.bg-primary{ background: linear-gradient(90deg, var(--primary) 0%, var(--primary-x) 100%); }
+
 
 .navbar{
 	min-height: 5rem;
@@ -69,4 +79,9 @@ body{
 
 .card{
 	border-radius: 1rem;
+}
+
+.icon-container{
+	width: 50px;
+	height: 50px;
 }
