@@ -77,6 +77,13 @@ a:hover{
 	min-height: 1000px;
 }
 
+.bg-image-xx{
+	/*background-image: url('../img/bg-dark-2.png');*/
+	background-color: #0a0a0a; 
+	background-size: cover;
+	min-height: 500px;
+}
+
 .card{
 	border-radius: 1rem;
 }
@@ -90,3 +97,53 @@ a:hover{
 	border-top-left-radius: 1rem !important;
 	border-top-right-radius: 1rem !important;
 }
+
+.form-control{
+	background-color: var(--dark-xx);
+	height: unset;
+	padding: .8rem 1rem;
+	border: 0; 
+}
+
+.form-control:focus{
+	background-color: var(--dark-xx);
+	box-shadow: none;
+}
+
+@media(max-width: 575.98px){
+	.w-75{
+		width: 100% !important;
+	}
+	.py-5{
+		padding-top: 5rem !important;
+		padding-bottom: 5rem !important;
+	}
+	.btn{
+		width: 100% ;
+	}
+	.list-inline-item{
+		display: block;
+		text-align: center;
+	}
+
+
+	footer{
+		text-align: center;
+	}
+	footer .list-inline-item{
+		display: inline-block;
+	}
+	footer .text-right{
+		text-align: center !important;
+	}
+	footer small{
+		display: block;
+	}
+}
+
+
+
+
+
+
+
